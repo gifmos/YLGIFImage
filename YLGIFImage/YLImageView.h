@@ -12,4 +12,9 @@
 
 @property (nonatomic, copy) NSString *runLoopMode;
 
+@property (nonatomic, strong) NSString *filePath;
+
+- (void)stopAnimating;
+- (void)startAnimating;
+
 @end
